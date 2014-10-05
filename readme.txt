@@ -15,3 +15,12 @@ git remote add origin git@github.com:kthanapuet/GitTraining.git \\ for git bash
 git remote set-user origin git@github.com:kthanapuet/GitTraining.git
 git remote -v 
 
+git branch developer
+git branch
+git branch -a
+git checkout developer
+.gitignore
+git add -A
+git merge develop
+git push origin master
+git push origin develop
