@@ -28,5 +28,11 @@ git push origin develop
 cat filename // detail file
 git pull origin branchname // get brancname to checkingout branch.
 
-nodata 
-nodata master
+[optional]
+git branch -D deleteme
+git remote prune deleteme
+git push origin :deleteme
+
+
+
+
