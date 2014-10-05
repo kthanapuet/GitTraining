@@ -24,3 +24,8 @@ git add -A
 git merge develop
 git push origin master
 git push origin develop
+
+cat filename // detail file
+git pull origin branchname // get brancname to checkingout branch.
+
+nodata
